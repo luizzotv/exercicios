@@ -6,6 +6,6 @@ num = int(input('Em que numero eu pensei? '))
 print ('P R O C E S S A N D O . . . .')
 sleep(2)
 if num == ne:
-    print('PARABENS, VOCE GANHOU!! EU PENSEI NO NUMERO')
+    print('PARABENS, VOCE GANHOU!! EU PENSEI NO NUMERO {}'.format(ne))
 else:
     print('EU GANHEI, EU PENSEI NO NUMERO {} TENTE NOVAMENTE...'.format(ne))
