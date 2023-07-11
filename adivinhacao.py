@@ -1,4 +1,4 @@
-import random
+import random as gerar
 ###from random import randint
 
 def jogar():
@@ -7,7 +7,7 @@ def jogar():
     print("Bem vindo ao jogo de Adivinhação!")
     print("*********************************")
 
-    numero_secreto = random.randrange(1, 101)
+    numero_secreto = gerar.randrange(1, 101)
     ###numero_secreto = randint(1, 101)
     total_de_tentativas = 0
     pontos = 1000
