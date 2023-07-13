@@ -13,3 +13,5 @@ if jogo == 1:
 elif jogo == 2:
     print('Jogando Forca!')
     forca.jogar()
+    print('fim')
+    
