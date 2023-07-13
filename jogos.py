@@ -12,6 +12,6 @@ if jogo == 1:
     adivinhacao.jogar()
 elif jogo == 2:
     print('Jogando Forca!')
-    forca.jogar()
+    forca.play()
     print('fim')
-    
+
