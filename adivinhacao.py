@@ -28,9 +28,9 @@ def jogar():
         print("Você digitou: ", chute_str)
         chute = int(chute_str)
 
-        acertou = chute == numero_secreto;
-        maior = chute > numero_secreto;
-        menor = chute < numero_secreto;
+        acertou = chute == numero_secreto
+        maior = chute > numero_secreto
+        menor = chute < numero_secreto
 
         if (chute < 1 or chute > 100):
             print('OPÇÃO INVÁLIDA, voce deve digitar um numero entre 1 e 100!')
